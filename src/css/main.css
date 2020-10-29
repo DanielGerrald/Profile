@@ -1534,7 +1534,7 @@ header .logo a {
 	margin-left: 0;
 }
 .about-content .info-list li {
-	padding: 0 0 1.5rem 0;
+	
 	margin-bottom: .6rem;
 }
 .about-content .info-list li strong {
@@ -1551,6 +1551,7 @@ header .logo a {
 	color: #888888;
 	font-size: 1.5rem;
 	line-height: 1;
+	padding: 0 0 1.5rem 0;
 }
 .about-content .skill-bars {
 	margin-top: 6rem;
