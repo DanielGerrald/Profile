@@ -8,8 +8,6 @@ class Contact extends Component {
           <div className="col-twelve">
             <h5>Contact</h5>
             <h1>I'd Love To Hear From You.</h1>
-
-            <p className="lead"></p>
           </div>
         </div>
 
@@ -27,7 +25,7 @@ class Contact extends Component {
             </p>
           </div>
 
-          <div className="col-four tab-full collapse">
+          <div className="col-four tab-full">
             <div className="icon">
               <i className="icon-mail"></i>
             </div>

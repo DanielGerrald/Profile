@@ -9,7 +9,6 @@ class Intro extends Component {
         <div className="intro-content">
           <div className="row">
             <div className="col-twelve">
-              <h5>Hello, World.</h5>
               <h1>Daniel Gerrald</h1>
 
               <p className="intro-position">
