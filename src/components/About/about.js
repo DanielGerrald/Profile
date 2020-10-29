@@ -40,7 +40,6 @@ class About extends Component {
         <div className="row about-content">
           <div className="col-six tab-full">
             <h3>Profile</h3>
-            <p></p>
 
             <ul className="info-list">
               <li>
@@ -60,31 +59,21 @@ class About extends Component {
 
           <div className="col-six tab-full">
             <h3>Skills</h3>
-            <p></p>
 
-            <ul className="skill-bars">
+            <ul className="info-list">
               <li>
-                <div className="progress percent60">
-                  <span>60%</span>
-                </div>
                 <strong>HTML</strong>
               </li>
               <li>
-                <div className="progress percent50">
-                  <span>50%</span>
-                </div>
                 <strong>CSS</strong>
               </li>
               <li>
-                <div className="progress percent40">
-                  <span>40%</span>
-                </div>
+                <strong>Javascript</strong>
+              </li>
+              <li>
                 <strong>JQuery</strong>
               </li>
               <li>
-                <div className="progress percent40">
-                  <span>40%</span>
-                </div>
                 <strong>React</strong>
               </li>
             </ul>
