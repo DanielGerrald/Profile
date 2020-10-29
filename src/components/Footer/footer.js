@@ -37,6 +37,9 @@ class Footer extends Component {
               <span>
               Refactored into React by <a href="https://github.com/DanielGerrald/Profile">Daniel Gerrald</a>
               </span>
+              <span>
+              Photography by <a href="https://github.com/DanielGerrald/Profile">Thomas Edmons</a>
+              </span>
             </div>
           </div>
 
