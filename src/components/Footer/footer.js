@@ -5,7 +5,7 @@ class Footer extends Component {
     return (
       <footer className="footer">
         <div className="row">
-          <div className="col-six tab-full  social">
+          <div className="col-twelve tab-full social">
             <ul className="footer-social">
               <li>
                 <a href="https://www.linkedin.com/in/daniel-gerrald-493b89165/">
@@ -20,7 +20,7 @@ class Footer extends Component {
             </ul>
           </div>
 
-          <div className="col-eight tab-full">
+          <div className="col-twelve tab-full social">
             <div className="copyright">
               <span>© Copyright 2020 </span>
               <span>
@@ -28,6 +28,14 @@ class Footer extends Component {
               </span>
               <span>
                 Distributed by <a href="https://themewagon.com/">themewagon</a>
+              </span>
+            </div>
+          </div>
+          
+          <div className="col-twelve tab-full social">
+            <div className="copyright">
+              <span>
+              Refactored into React by <a href="https://github.com/DanielGerrald/Profile">Daniel Gerrald</a>
               </span>
             </div>
           </div>

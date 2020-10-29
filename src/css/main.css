@@ -2496,6 +2496,7 @@ footer {
 	padding-bottom: 3rem;
 	font-size: 1.4rem;
 	font-family: "poppins-regular", sans-serif;
+	align-content: center;
 }
 footer a, footer a:visited {
 	color: #FFFFFF;
@@ -2504,6 +2505,7 @@ footer a:hover, footer a:focus {
 	color: #5900ff;
 }
 footer .row {
+	margin-top: 10px;
 	max-width: 900px;
 }
 footer .social {
