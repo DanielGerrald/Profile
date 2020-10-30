@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ProfilePic from "../../../public/images/profile-pic.jpg";
+import ProfilePic from "../../images/profile-pic.jpg";
 import CV from "../../inc/Daniel Gerrald - Resume 2020.pdf";
 
 class About extends Component {
