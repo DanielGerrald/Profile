@@ -33,12 +33,12 @@ class Portfolio extends Component {
         </div>
 
         <div className="row portfolio-content">
-          <div className="col-twelve">
+          <div className="col-twelve" style={{ padding : "0px"}}>
             <div id="folio-wrapper" className="block-1-2 block-mob-full stack">
               {Works.map((item) => {
                 return (
                   <>
-                    <div className="bgrid folio-item">
+                    <div className="bgrid folio-item" style={{ padding : "20px"}}>
                       <div className="item-wrap">
                         <img src={item.image} alt={item.name} />
                         <div
