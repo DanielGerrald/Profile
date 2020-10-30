@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Lunch Randomizer",
+        "image": "../../images/portfolio/Lunch Randomizer.jpg",
+        "modalNumber": "modal1",
+        "description": "This is a project I did with a few friends to create a method to randomly select a nearby eatery based on cuisine type.",
+        "githubLink": "https://github.com/DanielGerrald/Project_1"
+    },
+    {
+        "name": "Greener Grass",
+        "image": "../../images/portfolio/GreenerGrass.jpg",
+        "modalNumber": "modal2",
+        "description": "An application that allows the user to search a desired zip code and either write a review or view the database for that area. The database will consist of users writing about their experiences and opinions on what the area has to offer. This will be a useful tool for deciding whether or not the grass is truly greener on the other side.",
+        "githubLink": "https://github.com/DanielGerrald/project-2"
+    },
+    {
+        "name": "OneStopShop",
+        "image": "../../images/portfolio/OneStopShop.jpg",
+        "modalNumber": "modal3",
+        "description": "This ecommerce page was created to .",
+        "githubLink": "https://github.com/DanielGerrald/OneStopShop"
+    },
+    {
+        "name": "Eat-A-Burger",
+        "image": "../../images/portfolio/eat-a-burger.jpg",
+        "modalNumber": "modal4",
+        "description": "This is a fun app that allows the user to add a burger to the list Burgers to be Devoured and select the devour button for the burger to move over to the Devoured Burgers list.",
+        "githubLink": "https://github.com/DanielGerrald/Eat-A-Burger"
+    }
+]
