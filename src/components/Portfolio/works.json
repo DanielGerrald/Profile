@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "name": "Lunch Randomizer",
         "image": "../../images/portfolio/Lunch Randomizer.jpg",
         "modalNumber": "modal1",
@@ -7,6 +8,7 @@
         "githubLink": "https://github.com/DanielGerrald/Project_1"
     },
     {
+        "id": 2,
         "name": "Greener Grass",
         "image": "../../images/portfolio/GreenerGrass.jpg",
         "modalNumber": "modal2",
@@ -14,6 +16,7 @@
         "githubLink": "https://github.com/DanielGerrald/project-2"
     },
     {
+        "id": 3,
         "name": "OneStopShop",
         "image": "../../images/portfolio/OneStopShop.jpg",
         "modalNumber": "modal3",
@@ -21,6 +24,7 @@
         "githubLink": "https://github.com/DanielGerrald/OneStopShop"
     },
     {
+        "id": 4,
         "name": "Eat-A-Burger",
         "image": "../../images/portfolio/eat-a-burger.jpg",
         "modalNumber": "modal4",

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class Header extends Component {
   state = {
@@ -36,42 +37,24 @@ class Header extends Component {
             <nav id="main-nav-wrap">
               <ul className="main-navigation" style={this.state.style}>
                 <li className="current">
-                  <a className="smoothscroll" href="/#" title="">
+                  <Link className="smoothscroll" to="/" title="">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="smoothscroll" href="/#about" title="">
+                  <Link className="smoothscroll" to="/about" title="">
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="smoothscroll" href="/#resume" title="">
+                  <Link className="smoothscroll" to="/resume" title="">
                     Resume
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="smoothscroll" href="/portfolio" title="">
+                  <Link className="smoothscroll" to="/portfolio" title="">
                     Portfolio
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="smoothscroll"
-                    href="/portfolio/#services"
-                    title=""
-                  >
-                    Services
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="smoothscroll"
-                    href="/portfolio/#contact"
-                    title=""
-                  >
-                    Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </nav>

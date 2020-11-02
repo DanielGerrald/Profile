@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import CV from "../../inc/Daniel Gerrald - Resume 2020.pdf";
+import { Link } from "react-router-dom";
 
 class Resume extends Component {
   render() {
@@ -131,6 +133,20 @@ class Resume extends Component {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="row button-section">
+          <div className="col-twelve">
+            <Link
+              to="portfolio"
+              title="Portfolio"
+              className="button stroke smoothscroll"
+            >
+              Portfolio
+            </Link>
+            <a target="_blank" rel="noopener noreferrer" href={CV} title="Download CV" className="button button-primary">
+              Download CV
+            </a>
           </div>
         </div>
       </section>
