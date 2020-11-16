@@ -6,6 +6,10 @@
   This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
   It is a profile site using react.js to showcase the skills that I have learned so far.
+
+  This project was deployed using Heroku.
+  
+  Please follow this [link](https://daniel-gerrald.herokuapp.com) to access the deployed project.
   ## Table of Contents
   1. [Installation](#installation)
   2. [Usage](#usage)
