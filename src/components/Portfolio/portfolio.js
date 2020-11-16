@@ -74,9 +74,9 @@ class Portfolio extends Component {
                         </div>
 
                         <div className="link-box">
-                          <a href={item.githubLink}>Details</a>
+                          <a href={item.githubLink} target="_blank" rel="noopener noreferrer">Details</a>
                           <a
-                            href="/#"
+                            href="#"
                             onClick={() => this.handleClose(item.modalNumber)}
                             className="popup-modal-dismiss"
                           >
