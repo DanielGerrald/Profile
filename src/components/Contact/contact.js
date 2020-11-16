@@ -20,7 +20,6 @@ class Contact extends Component {
             <h5>Where to find me</h5>
 
             <p>
-              1700 N Brevard St.{"\n"}
               Charlotte, NC
             </p>
           </div>
