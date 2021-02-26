@@ -30,5 +30,13 @@
         "modalNumber": "modal4",
         "description": "This is a fun app that allows the user to add a burger to the list Burgers to be Devoured and select the devour button for the burger to move over to the Devoured Burgers list.",
         "githubLink": "https://github.com/DanielGerrald/Eat-A-Burger"
+    },
+    {
+        "id": 5,
+        "name": "Harry Potter Quiz",
+        "image": "../../images/portfolio/harry-potter-quiz.png",
+        "modalNumber": "modal5",
+        "description": "In this project I created a Harry Potter themed quiz. The quiz is timed and the time is your score. If you get an answer incorrect then 15 seconds is subtracted from your time. Your name and score are stored in local storage and can be cleared at anytime you choose.",
+        "githubLink": "https://github.com/DanielGerrald/Code_Quiz"
     }
 ]
