@@ -38,5 +38,13 @@
         "modalNumber": "modal5",
         "description": "In this project I created a Harry Potter themed quiz. The quiz is timed and the time is your score. If you get an answer incorrect then 15 seconds is subtracted from your time. Your name and score are stored in local storage and can be cleared at anytime you choose.",
         "githubLink": "https://github.com/DanielGerrald/Code_Quiz"
+    },
+    {
+        "id": 6,
+        "name": "Weather Dashboard",
+        "image": "../../images/portfolio/weather.png",
+        "modalNumber": "modal6",
+        "description": "In this activity I created a webpage that allowed the user to input a city in the United States and they would get back the current weather conditions for that city along with the 5 day weather forecast for the next 5 days. I used api calls to gather the weather information from openweathermap.org.",
+        "githubLink": "https://github.com/DanielGerrald/Weather_Dashboard"
     }
 ]
