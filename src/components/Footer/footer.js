@@ -35,7 +35,7 @@ class Footer extends Component {
               by <a href="https://github.com/DanielGerrald">Daniel Gerrald</a>
               </span>
               <span>
-              Photography by <a href="#">Thomas Edmons</a>
+              Photography by <a href="https://www.shutterstock.com/g/T.Edmons">Thomas Edmons</a>
               </span>
             </div>
           </div>
