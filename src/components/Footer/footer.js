@@ -23,19 +23,16 @@ class Footer extends Component {
           <div className="col-twelve tab-full social">
             <div className="copyright">
               <span>© Copyright 2020 </span>
-              <span>
-                Design by <a href="http://www.styleshout.com/">styleshout</a>
-              </span>
-              <span>
-                Distributed by <a href="https://themewagon.com/">themewagon</a>
-              </span>
+              {/* <span>
+                Orrignal Design by <a href="https://www.styleshout.com/free-templates/kards/">styleshout</a>
+              </span> */}
             </div>
           </div>
           
           <div className="col-twelve tab-full social">
             <div className="copyright">
               <span>
-              Refactored into React by <a href="https://github.com/DanielGerrald/Profile">Daniel Gerrald</a>
+              by <a href="https://github.com/DanielGerrald">Daniel Gerrald</a>
               </span>
               <span>
               Photography by <a href="#">Thomas Edmons</a>
