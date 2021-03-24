@@ -28,40 +28,6 @@ class Resume extends Component {
                 </div>
 
                 <div className="timeline-header">
-                  <h3>UNC Charlotte / Trilogy Bootcamp</h3>
-                  <p>August 2020 - October 2020</p>
-                </div>
-
-                <div className="timeline-content">
-                  <h4>Coding Bootcamp Certification</h4>
-                  <p>
-                    Computer Science applied to JavaScript, Databases (MySQL,
-                    MongoDB), Server Side Development (MERN Stack, Progressive
-                    Web Applications), Browser Based Technologies (HTML5, CSS,
-                    JavaScript, jQuery, Bootstrap), Deployment/Command-Line
-                    Fundamentals (Heroku, Git), API Interaction (API, JSON,
-                    AJAX), Quality Assurance (Unit Testing, Linting, Continuous
-                    Integration), Agile Methodology
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="row resume-timeline">
-          <div className="col-twelve resume-header">
-            <h2>Work Experience</h2>
-          </div>
-
-          <div className="col-twelve">
-            <div className="timeline-wrap">
-              <div className="timeline-block">
-                <div className="timeline-ico">
-                  <i className="fa fa-briefcase"></i>
-                </div>
-
-                <div className="timeline-header">
                   <h3>Avast Antivirus</h3>
                   <p>February 2019 - July 2020</p>
                 </div>
@@ -145,13 +111,21 @@ class Resume extends Component {
                 </div>
 
                 <div className="timeline-header">
-                  <h3>UNC Charlotte {"\n"} Coding Bootcamp</h3>
-                  <p>July 2020 - Present</p>
+                  <h3>UNC Charlotte {"\n"} Trilogy Coding Bootcamp</h3>
+                  <p>August 2020 - October 2020</p>
                 </div>
 
                 <div className="timeline-content">
-                  <h4>Student</h4>
-                  <p>Learning HTML, CSS, Vanilla Javascript, JQuery, and GIT</p>
+                  <h4>Coding Bootcamp Certification</h4>
+                  <p>
+                    Computer Science applied to JavaScript, Databases (MySQL,
+                    MongoDB), Server Side Development (MERN Stack, Progressive
+                    Web Applications), Browser Based Technologies (HTML5, CSS,
+                    JavaScript, jQuery, Bootstrap), Deployment/Command-Line
+                    Fundamentals (Heroku, Git), API Interaction (API, JSON,
+                    AJAX), Quality Assurance (Unit Testing, Linting, Continuous
+                    Integration), Agile Methodology
+                  </p>
                 </div>
               </div>
 
