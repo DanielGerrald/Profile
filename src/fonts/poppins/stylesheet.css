@@ -12,6 +12,7 @@
          url('poppins-bold-webfont.svg#poppinsbold') format('svg');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 
 }
 
@@ -28,6 +29,7 @@
          url('poppins-light-webfont.svg#poppinslight') format('svg');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 
 }
 
@@ -44,6 +46,7 @@
          url('poppins-medium-webfont.svg#poppinsmedium') format('svg');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 
 }
 
@@ -60,6 +63,7 @@
          url('poppins-regular-webfont.svg#poppinsregular') format('svg');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 
 }
 
@@ -76,5 +80,6 @@
          url('poppins-semibold-webfont.svg#poppinssemibold') format('svg');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 
 }
