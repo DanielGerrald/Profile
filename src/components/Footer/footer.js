@@ -32,10 +32,12 @@ class Footer extends Component {
           <div className="col-twelve tab-full social">
             <div className="copyright">
               <span>
-              by <a href="https://github.com/DanielGerrald">Daniel Gerrald</a>
+              by <a href="https://github.com/DanielGerrald" alt="Link to Github" target="_blank"
+              rel="noopener noreferrer">Daniel Gerrald</a>
               </span>
               <span>
-              Photography by <a href="https://www.shutterstock.com/g/T.Edmons">Thomas Edmons</a>
+              Photography by <a href="https://www.shutterstock.com/g/T.Edmons" alt="Link to Shutterstock" target="_blank"
+              rel="noopener noreferrer">Thomas Edmons</a>
               </span>
             </div>
           </div>
