@@ -73,7 +73,7 @@ body {
   font-family: "lora-regular", serif;
   font-size: 1.7rem;
   line-height: 3rem;
-  color: #6e6e6e;
+  color: #000;
 }
 
 /**
@@ -182,7 +182,7 @@ p.lead {
   font-family: "lora-regular", serif;
   font-size: 2rem;
   line-height: 1.8;
-  color: #888888;
+  color: #000;
 }
 @media only screen and (max-width: 768px) {
   p.lead {
@@ -1121,7 +1121,7 @@ input::-moz-focus-inner {
   background: #ebebeb;
 }
 .grey-section p.lead {
-  color: #7d7d7d;
+  color: #000;
 }
 .section-intro {
   max-width: 700px;
@@ -1196,7 +1196,7 @@ header .top-bar {
   min-width: 150px;
   min-height: 66px;
   position: absolute;
-  left: 25px;
+  left: 0px;
   top: 0;
 }
 header .logo {
@@ -1519,6 +1519,9 @@ header .logo a {
 .intro-social li a:focus {
   color: #5900ff;
 }
+.intro-social span {
+  font-size: 0;
+}
 
 /**
  * responsive:
@@ -1787,7 +1790,7 @@ header .logo a {
 #resume .timeline-header p {
   font-family: "poppins-regular", sans-serif;
   font-size: 1.6rem;
-  color: #888888;
+  color: #000;
 }
 #resume .timeline-content {
   margin-left: 35%;
@@ -1956,7 +1959,7 @@ header .logo a {
   font-family: "poppins-regular", sans-serif;
   font-size: 1.2rem;
   letter-spacing: 0.1rem;
-  color: rgba(255, 255, 255, 0.6);
+  color: #000;
 }
 #portfolio .folio-item:hover .overlay {
   background: rgba(0, 0, 0, 0.8);
@@ -1996,7 +1999,6 @@ header .logo a {
  * ------------------------------------------------------------------
  */
 .popup-modal {
-  max-width: 550px;
   background: #ffffff;
   position: relative;
   margin: 0 auto;
@@ -2011,6 +2013,7 @@ header .logo a {
   padding: 1.8rem 3.6rem 3rem;
 }
 .popup-modal .description-box h4 {
+  text-align: center;
   font-family: "poppins-bold", sans-serif;
   font-size: 1.5rem;
   line-height: 2.4rem;
@@ -2135,7 +2138,7 @@ header .logo a {
   text-align: center;
 }
 #cta p.lead {
-  color: #6e6e6e;
+  color: #000;
 }
 .cta-content {
   max-width: 640px;
@@ -2251,27 +2254,6 @@ header .logo a {
   color: #5900ff;
 }
 
-/* pagination */
-.owl-pagination {
-  text-align: center;
-  width: 100%;
-  margin: 0.6rem 0 0;
-}
-.owl-theme .owl-controls .owl-page {
-  display: inline-block;
-}
-.owl-theme .owl-controls .owl-page span {
-  display: block;
-  width: 1.2rem;
-  height: 1.2rem;
-  margin: 1.2rem 0.8rem 0 0.8rem;
-  border-radius: 50%;
-  display: inline-block;
-  background: #ffffff;
-}
-.owl-theme .owl-controls .owl-page.active span {
-  background: #5900ff;
-}
 
 /** 
  * ===================================================================
@@ -2357,162 +2339,15 @@ header .logo a {
   color: #5900ff;
 }
 #contact .section-intro p {
-  color: rgba(255, 255, 255, 0.7);
+  color: #ffffff;
 }
 
-/* contact form */
-.contact-form {
-  max-width: 740px;
-}
-
-.contact-form ::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.3);
-}
-.contact-form :-moz-placeholder {
-  color: rgba(255, 255, 255, 0.3); /* Firefox 18- */
-}
-.contact-form ::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.3); /* Firefox 19+ */
-}
-.contact-form :-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.3);
-}
-.contact-form .placeholder {
-  color: rgba(255, 255, 255, 0.3) !important;
-}
-
-#contact form {
-  margin-top: 0;
-  margin-bottom: 3rem;
-}
-#contact form .form-field {
-  position: relative;
-}
-#contact form .form-field:before,
-#contact form .form-field:after {
-  content: "";
-  display: table;
-}
-#contact form .form-field:after {
-  clear: both;
-}
-#contact form .form-field label {
-  font-family: "poppins-bold", sans-serif;
-  font-size: 1.1rem;
-  line-height: 2.4rem;
-  position: absolute;
-  bottom: -1.2rem;
-  right: 0.6rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  padding: 0 2rem;
-  margin: 0;
-  color: #ffffff;
-  background: #5900ff;
-}
-#contact form .form-field label::after {
-  position: absolute;
-  left: -5px;
-  top: 50%;
-  margin-top: -6px;
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  border-right: 5px solid #5900ff;
-  content: "";
-}
-#contact input[type="text"],
-#contact input[type="password"],
-#contact input[type="email"],
-#contact textarea {
-  width: 100%;
-  color: rgba(255, 255, 255, 0.7);
-  margin-bottom: 0;
-  border: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-#contact input[type="text"],
-#contact input[type="password"],
-#contact input[type="email"] {
-  height: 6.6rem;
-  padding: 1.8rem 2rem;
-}
-#contact input[type="text"]:focus,
-#contact input[type="password"]:focus,
-#contact input[type="email"]:focus {
-  border-color: #5900ff;
-  color: #ffffff;
-}
-#contact textarea {
-  min-height: 20rem;
-  padding: 1.8rem 2rem;
-}
-#contact textarea:focus {
-  border-color: #5900ff;
-  color: #ffffff;
-}
-#contact button.submitform {
-  font-size: 1.5rem;
-  display: block;
-  letter-spacing: 0.2rem;
-  height: 6.6rem;
-  line-height: 6.6rem;
-  padding: 0 3rem;
-  margin-top: 4.8rem;
-  width: 100%;
-  background: #5900ff;
-  color: #ffffff;
-}
-#contact button.submitform:hover,
-#contact button.submitform:focus {
-  background: #5900ff;
-}
-#message-warning,
-#message-success {
-  display: none;
-  background: #0d0d0d;
-  border-radius: 3px;
-  padding: 3rem;
-  margin-bottom: 3.6rem;
-  width: 100%;
-}
-#message-warning {
-  color: #fa0003;
-}
-#message-success {
-  color: #5900ff;
-}
-#message-warning i,
-#message-success i {
-  margin-right: 10px;
-}
-
-/* form loader */
-#submit-loader {
-  display: none;
-  position: relative;
-  left: 0;
-  top: 1.8rem;
-  width: 100%;
-  text-align: center;
-}
-#submit-loader .text-loader {
-  display: none;
-  font-family: "poppins-bold", sans-serif;
-  color: #ffffff;
-  letter-spacing: 0.3rem;
-  text-transform: uppercase;
-}
-.oldie #submit-loader .s-loader {
-  display: none;
-}
-.oldie #submit-loader .text-loader {
-  display: block;
-}
 .contact-info {
   margin: 4.8rem auto 0;
   font-family: "poppins-regular", sans-serif;
   font-size: 1.5rem;
   text-align: center;
+  color: #ffffff;
 }
 .contact-info .collapse {
   padding: 0;
@@ -2632,12 +2467,13 @@ footer .footer-social li a {
 }
 footer .copyright span {
   display: inline-block;
+  color: #ffffff;
 }
 footer .copyright span::after {
   content: "|";
   display: inline-block;
   padding: 0 1rem 0 1.2rem;
-  color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
 }
 footer .copyright span:last-child::after {
   display: none;

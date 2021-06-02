@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./css/main.css";
-import "./css/vendor.css";
 import Header from "./components/Header/header";
 import Intro from "./components/Intro/intro";
 import About from "./components/About/about";

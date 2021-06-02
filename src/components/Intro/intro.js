@@ -24,13 +24,25 @@ class Intro extends Component {
 
         <ul className="intro-social">
           <li>
-            <a href="https://www.linkedin.com/in/daniel-gerrald-493b89165/">
-              <i className="fa fa-linkedin"></i>
+            <a
+              name="LinkedIn"
+              href="https://www.linkedin.com/in/daniel-gerrald-493b89165/"
+              alt="linkedin-image"
+              target="_blank"
+              rel="noopener noreferrer"
+            ><span>LinkedIn</span>
+              <i className="fa fa-linkedin fa-3x"></i>
             </a>
           </li>
           <li>
-            <a href="https://github.com/DanielGerrald">
-              <i className="fa fa-github"></i>
+            <a
+              name="Github"
+              href="https://github.com/DanielGerrald"
+              alt="github-image"
+              target="_blank"
+              rel="noopener noreferrer"
+            ><span>Github</span>
+              <i className="fa fa-github fa-3x"></i>
             </a>
           </li>
         </ul>
