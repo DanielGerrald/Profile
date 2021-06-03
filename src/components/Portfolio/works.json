@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Lunch Randomizer",
-        "image": "../../images/portfolio/Lunch Randomizer.jpg",
+        "image": "../../images/portfolio/Lunch Randomizer.webp",
         "modalNumber": "modal1",
         "description": "This is a project I did with a few friends to create a method to randomly select a nearby eatery based on cuisine type.",
         "githubLink": "https://github.com/DanielGerrald/Lunch-Randomizer"
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "name": "Greener Grass",
-        "image": "../../images/portfolio/GreenerGrass.jpg",
+        "image": "../../images/portfolio/GreenerGrass.webp",
         "modalNumber": "modal2",
         "description": "An application that allows the user to search a desired zip code and either write a review or view the database for that area. The database will consist of users writing about their experiences and opinions on what the area has to offer. This will be a useful tool for deciding whether or not the grass is truly greener on the other side.",
         "githubLink": "https://github.com/DanielGerrald/project-2"
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "name": "OneStopShop",
-        "image": "../../images/portfolio/OneStopShop.jpg",
+        "image": "../../images/portfolio/OneStopShop.webp",
         "modalNumber": "modal3",
         "description": "This ecommerce concept was envisioned to be a one-stop-shop for small vendors of various products. The application created enables the seller to add products and create a full front end experience for their customer to explore available products.",
         "githubLink": "https://github.com/DanielGerrald/OneStopShop"
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "name": "Eat-A-Burger",
-        "image": "../../images/portfolio/eat-a-burger.jpg",
+        "image": "../../images/portfolio/eat-a-burger.webp",
         "modalNumber": "modal4",
         "description": "This is a fun app that allows the user to add a burger to the list Burgers to be Devoured and select the devour button for the burger to move over to the Devoured Burgers list.",
         "githubLink": "https://github.com/DanielGerrald/Eat-A-Burger"
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "name": "Harry Potter Quiz",
-        "image": "../../images/portfolio/harry-potter-quiz.png",
+        "image": "../../images/portfolio/harry-potter-quiz.webp",
         "modalNumber": "modal5",
         "description": "In this project I created a Harry Potter themed quiz. The quiz is timed and the time is your score. If you get an answer incorrect then 15 seconds is subtracted from your time. Your name and score are stored in local storage and can be cleared at anytime you choose.",
         "githubLink": "https://github.com/DanielGerrald/Code_Quiz"
@@ -42,7 +42,7 @@
     {
         "id": 6,
         "name": "Weather Dashboard",
-        "image": "../../images/portfolio/weather.png",
+        "image": "../../images/portfolio/weather.webp",
         "modalNumber": "modal6",
         "description": "In this activity I created a webpage that allowed the user to input a city in the United States and they would get back the current weather conditions for that city along with the 5 day weather forecast for the next 5 days. I used api calls to gather the weather information from openweathermap.org.",
         "githubLink": "https://github.com/DanielGerrald/Weather_Dashboard"
