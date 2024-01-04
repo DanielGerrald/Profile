@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2fdcf9bd.chunk.css",
+    "main.js": "/static/js/main.25201c92.chunk.js",
+    "main.js.map": "/static/js/main.25201c92.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2ea34f28.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2ea34f28.js.map",
+    "static/css/2.7f1403ef.chunk.css": "/static/css/2.7f1403ef.chunk.css",
+    "static/js/2.819952e1.chunk.js": "/static/js/2.819952e1.chunk.js",
+    "static/js/2.819952e1.chunk.js.map": "/static/js/2.819952e1.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ec115e15199be56f81160f2ae784bc83.js": "/precache-manifest.ec115e15199be56f81160f2ae784bc83.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.7f1403ef.chunk.css.map": "/static/css/2.7f1403ef.chunk.css.map",
+    "static/css/main.2fdcf9bd.chunk.css.map": "/static/css/main.2fdcf9bd.chunk.css.map",
+    "static/js/2.819952e1.chunk.js.LICENSE.txt": "/static/js/2.819952e1.chunk.js.LICENSE.txt",
+    "static/media/Daniel Gerrald - Resume.pdf": "/static/media/Daniel Gerrald - Resume.16f4aaef.pdf",
+    "static/media/main.css": "/static/media/poppins-semibold-webfont.f98c932e.woff2",
+    "static/media/profile-pic.webp": "/static/media/profile-pic.10b7b632.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ea34f28.js",
+    "static/css/2.7f1403ef.chunk.css",
+    "static/js/2.819952e1.chunk.js",
+    "static/css/main.2fdcf9bd.chunk.css",
+    "static/js/main.25201c92.chunk.js"
+  ]
+}
